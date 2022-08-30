@@ -1,0 +1,8 @@
+All Assets in the Assets.xcassets are property of Bhavin Patel and may not be used for commercial purposes without the expressed permission of Bhavin Patel.
+
+This app or any app created with inspiration from this app may not be distributed on any App Store or used for commercial purposes without the expressed permission of Bhavin Patel. Who can be contacted at bbaspatel@icloud.com. This app is for learning purposes.
+
+Copyright © 2021 Bhavin Patel.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+

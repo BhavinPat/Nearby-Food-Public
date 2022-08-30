@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CarouselItem" customModule="Nearby_Food" customModuleProvider="target">
+            <connections>
+                <outlet property="Content" destination="cfc-3g-Ixi" id="zUU-q6-c0w"/>
+                <outlet property="background" destination="Ors-oe-nNO" id="ODF-Cb-5UY"/>
+                <outlet property="image" destination="s9M-vm-uJ0" id="KcN-HP-H7x"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="cfc-3g-Ixi">
+            <rect key="frame" x="0.0" y="0.0" width="423" height="429"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ors-oe-nNO">
+                    <rect key="frame" x="0.0" y="0.0" width="423" height="429"/>
+                    <subviews>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="s9M-vm-uJ0">
+                            <rect key="frame" x="0.0" y="0.0" width="423" height="429"/>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="s9M-vm-uJ0" firstAttribute="leading" secondItem="Ors-oe-nNO" secondAttribute="leading" id="AVf-6R-Xay"/>
+                        <constraint firstItem="s9M-vm-uJ0" firstAttribute="top" secondItem="Ors-oe-nNO" secondAttribute="top" id="cQG-DC-0bU"/>
+                        <constraint firstAttribute="bottom" secondItem="s9M-vm-uJ0" secondAttribute="bottom" id="jmX-Ue-yho"/>
+                        <constraint firstAttribute="trailing" secondItem="s9M-vm-uJ0" secondAttribute="trailing" id="jwI-tV-mdB"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="L8y-5x-ZOH"/>
+            <constraints>
+                <constraint firstItem="Ors-oe-nNO" firstAttribute="top" secondItem="L8y-5x-ZOH" secondAttribute="top" id="Bgz-v9-Tdp"/>
+                <constraint firstItem="Ors-oe-nNO" firstAttribute="leading" secondItem="L8y-5x-ZOH" secondAttribute="leading" id="S7J-XW-FqK"/>
+                <constraint firstItem="L8y-5x-ZOH" firstAttribute="bottom" secondItem="Ors-oe-nNO" secondAttribute="bottom" id="c4s-BT-urV"/>
+                <constraint firstItem="L8y-5x-ZOH" firstAttribute="trailing" secondItem="Ors-oe-nNO" secondAttribute="trailing" id="lhM-5A-Qxz"/>
+            </constraints>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="215.19999999999999" y="-145.27736131934034"/>
+        </view>
+    </objects>
+</document>
